@@ -7,8 +7,9 @@
     "pretest": "npm run lint --silent"
   },
   "dependencies": {
-    "antd": "^2.6.0",
+    "antd": "^2.7.3",
     "babel-runtime": "^6.20.0",
+    "basscss": "^8.0.2",
     "bcrypt": "^0.8.7",
     "classnames": "^2.2.5",
     "immutability-helper": "^2.0.0",
@@ -96,8 +97,12 @@
       "less",
       "css"
     ],
-    "enableSassCompilation": ["scss"],
-    "enableLessCompilation": ["less"],
+    "enableSassCompilation": [
+      "scss"
+    ],
+    "enableLessCompilation": [
+      "less"
+    ],
     "passthroughPaths": [
       "node_modules/antd"
     ],
